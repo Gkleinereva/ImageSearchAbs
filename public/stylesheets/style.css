@@ -4,5 +4,12 @@ body {
 }
 
 a {
-  color: #00B7FF;
+	overflow-wrap: break-word;
+  	color: #00B7FF;
+}
+
+div {
+	background-color: GreenYellow;
+	padding: 5px;
+	margin-bottom: 10px;
 }

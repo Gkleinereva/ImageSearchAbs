@@ -1,0 +1,8 @@
+extends layout
+
+block content
+	h1= title
+	each result in data
+		div
+			p Search Term: #{result.term}
+			p Search Time: #{result.dateTime}

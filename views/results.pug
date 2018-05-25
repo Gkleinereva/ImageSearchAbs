@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	h1= title
+	each result in data
+		div
+			p Image Link: #[a(href=result.url) #{result.url}]
+			p Description: #{result.snippet}
+			p Website: #[a(href=result.context) #{result.context}]

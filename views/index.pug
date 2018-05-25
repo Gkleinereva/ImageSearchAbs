@@ -1,5 +1,14 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	h1= title
+	p Welcome to an unecessary wrapper for less convenient google image searches!
+
+	h2 You can perform a search by visiting a URL of this form:
+	a(href=example.url) #{example.url}
+
+	h2 You can use an 'offset' URL parameter to paginate through results:
+	a(href=example.paginate) #{example.paginate}
+
+	h2 And you can view the most recent searches here:
+	a(href=example.recent) #{example.recent}
